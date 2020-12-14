@@ -1,0 +1,60 @@
+@font-face {
+    font-family: "Roboto";
+    src: url("/fonts/Roboto/Roboto-Black.ttf") format("ttf"),
+        url("/fonts/Roboto/Roboto-BlackItalic.ttf") format("ttf"),
+        url("/fonts/Roboto/Roboto-BlackItalic.ttf") format("ttf"),
+        url("/fonts/Roboto/Roboto-Bold.ttf") format("ttf"),
+        url("/fonts/Roboto/Roboto-BoldItalic.ttf") format("ttf"),
+        url("/fonts/Roboto/Roboto-Italic.ttf") format("ttf"),
+        url("/fonts/Roboto/Roboto-Light.ttf") format("ttf"),
+        url("/fonts/Roboto/Roboto-LightItalic.ttf") format("ttf"),
+        url("/fonts/Roboto/Roboto-Medium.ttf") format("ttf"),
+        url("/fonts/Roboto/Roboto-MediumItalic.ttf") format("ttf"),
+        url("/fonts/Roboto/Roboto-Regular.ttf") format("ttf"),
+        url("/fonts/Roboto/Roboto-Thin.ttf") format("ttf"),
+        url("/fonts/Roboto/Roboto-ThinItalic.ttf") format("ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*----------------initialise--------------*/
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*-----------------Navigation--------------*/
+
+
+body {
+    margin-top: 10px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul {
+    display: flex;
+    align-self: center;
+}
+
+nav ul li {
+    list-style: none;
+    padding-left: 35px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.3em;
+}
+
+#logo img {
+    width: 250px;
+    height: 100%;
+}
