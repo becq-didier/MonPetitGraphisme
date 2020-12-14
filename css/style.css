@@ -90,3 +90,66 @@ a {
     padding-top: 12px;
 
 }
+
+/*------------Contenu Principal--------------*/
+section {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 59%;
+}
+
+#themes-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+article {
+    padding-top: 40px;
+}
+
+.themes img {
+    width: 23%;
+}
+
+.themes h2 {
+    text-transform: uppercase;
+    font-size: 1.1em;
+    font-weight: 800;
+}
+
+.themes p {
+    font-size: 10px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+
+}
+
+.themes {
+    width: 30%;
+}
+
+.element {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+blockquote::before {
+    content: '\201C';
+}
+
+blockquote::after {
+    content: '\201D';
+}
+
+.element p {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-size: small;
+}
+/*-----------------*/
+footer {
+    background-color: #5B359D;
+}
