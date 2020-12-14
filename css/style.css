@@ -149,7 +149,72 @@ blockquote::after {
     padding-bottom: 10px;
     font-size: small;
 }
-/*-----------------*/
+
+/*-----------------footer------------------------*/
 footer {
     background-color: #5B359D;
+    text-align: center;
+    color: white;
+    padding:20px;
+}
+
+.title-footer {
+    padding-top: 10px;
+    font-size: 0.7em;
+}
+
+.social-network {
+    padding-top: 5px;
+    font-size: 0.7em;
+}
+
+i {
+    margin: 8px 40px 20px 40px;
+}
+
+.info-footer {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    padding-left: 100px;
+
+}
+
+.info-footer div h2 {
+    font-size: small;
+}
+
+.info-footer div h2 {
+    margin-bottom: 20px;
+}
+
+.info-footer div div {
+    margin-left: 30px;
+}
+
+.info-footer div div {
+    font-size: small;
+}
+
+.quick-access a {
+    color: white;
+    font-size: small;
+}
+
+.quick-access {
+    width: 30%;
+    text-align: left;
+}
+.contact a {
+    color: white;
+    font-size: small;
+}
+.about {
+    width: 30%;
+    text-align: left;
+}
+
+.contact {
+    width: 30%;
+    text-align: left;
 }
